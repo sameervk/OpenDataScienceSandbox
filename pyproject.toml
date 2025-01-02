@@ -1,7 +1,7 @@
 [project]
 name = "opendatasciencesandbox"
 version = "0.1.0"
-description = "Add your description here"
+description = "Experimentation with different data science methods and techniques on different open data"
 readme = "README.md"
 requires-python = ">=3.11.11"
 dependencies = []
