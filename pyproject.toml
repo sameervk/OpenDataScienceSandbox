@@ -4,4 +4,20 @@ version = "0.1.0"
 description = "Experimentation with different data science methods and techniques on different open data"
 readme = "README.md"
 requires-python = ">=3.11.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.0",
+    "notebook>=7.3.2",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.14.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+lint = [
+    "ruff>=0.8.5",
+]
